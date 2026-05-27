@@ -1,6 +1,6 @@
 cask "vinyl" do
-  version "1.0.1"
-  sha256 "5a6cb455b673f8427608fadac140f9c8a8f0781d4603c28462ff44676fe39211"
+  version "1.0.2"
+  sha256 "9b9eef231a98ed3dca092610aa1b13003eaacf95507f2f9774e978f58abaeb06"
 
   url "https://github.com/VariableThe/Vinyl/releases/download/Vinyl/Vinyl.zip"
   name "Vinyl"
