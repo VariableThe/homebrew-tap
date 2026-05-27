@@ -8,6 +8,12 @@ cask "vinyl" do
 
   app "Vinyl.app"
 
+  postflight do
+    system_command "xattr",
+                   args: ["-cr", "#{appdir}/Vinyl.app"],
+                   sudo: false
+  end
+
   zap trash: [
     "~/Library/Caches/com.variablethe.Vinyl",
     "~/Library/Preferences/com.variablethe.Vinyl.plist",
