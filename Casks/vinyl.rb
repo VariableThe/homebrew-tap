@@ -1,6 +1,6 @@
 cask "vinyl" do
-  version "1.2.6"
-  sha256 "0b9e91bdf41d1800ac89ff821c4ba762e825b41e517ca85547b096abfa00983c"
+  version "1.2.7"
+  sha256 "15b10c2494a4dfd9d1e58ddb95e5823d91b1b856a514984bfd87c971ea974939"
   url "https://github.com/VariableThe/Vinyl/releases/download/v#{version}/Vinyl.zip"
   name "Vinyl"
   desc "Native, lightweight macOS menu bar app for synchronized music lyrics"
