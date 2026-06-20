@@ -1,8 +1,8 @@
 cask "papercache" do
   arch arm: "arm64"
 
-  version "0.2.7"
-  sha256 arm:   "bcc188e85936b4d359cd6befc8cdb9885f57d50c0fb8fa084214842056bdedc4"
+  version "0.2.8"
+  sha256 arm:   "3491e199b931f6f2906762b2dd599fde90bd9f0ac57ea0fa50813cfa1fde5fdf"
 
   url "https://github.com/VariableThe/PaperCache/releases/download/v#{version}/PaperCache-#{version}-#{arch}-mac.zip"
   name "PaperCache"
