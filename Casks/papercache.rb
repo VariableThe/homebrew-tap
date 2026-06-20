@@ -1,10 +1,10 @@
 cask "papercache" do
   arch arm: "arm64"
 
-  version "0.1.19"
-  sha256 arm:   "3af460efdeca66cd28e04a00e5a479ca449b395239be9d461c88fd93e468552b"
+  version "0.2.6"
+  sha256 arm:   "d0197c7da14a48d6e8e12cd937dc8be79f66818fbf3d6757e97f45af86c7071b"
 
-  url "https://github.com/VariableThe/PaperCache/releases/download/v#{version}/PaperCache-0.1.17-#{arch}-mac.zip"
+  url "https://github.com/VariableThe/PaperCache/releases/download/v#{version}/PaperCache-#{version}-#{arch}-mac.zip"
   name "PaperCache"
   desc "Intelligent, minimalist markdown scratchpad"
   homepage "https://github.com/VariableThe/PaperCache"
