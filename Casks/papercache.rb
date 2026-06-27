@@ -2,7 +2,7 @@ cask "papercache" do
   arch arm: "aarch64", intel: "x64"
 
   version "0.5.3"
-  sha256 arm:   "4b647394e175d1010349ebf3ab15f09e287b0b76f852fb7a165ce4fb92803039"
+  sha256 arm:   "88860b0db4ba3ba34d2812315582173868210991d691f8841e531a63692c576c"
 
   url "https://github.com/VariableThe/PaperCache/releases/download/v0.5.3/PaperCache_aarch64.app.tar.gz"
   name "PaperCache"
